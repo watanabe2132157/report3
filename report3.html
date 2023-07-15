@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+    <head>
+        <meta charset="UTF-8">
+        <title>Montecarlo Method</title>
+        <link rel="stylesheet" href="report3.css">
+    
+      </head>
+      <body>
+        <h1>２分法とニュートン法の違い</h1>
+        <div id="contents">
+          <div id="panel">
+            <div>
+              <p>[初期値]</p>
+              <p>a=<input type="text" id="b02" class="size"></p>
+              <p>b=<input type="text" id="b03" class="size"></button></p>
+            </div>
+            <div>
+              <p>[許容誤差]</p>
+              <input type="text" id="d02" class="size"></button>
+             
+            </div>
+
+            <div>
+              <hr>
+                <button type="button" id="start" class="start">start</button>
+                <button type="button" id="clear" class="normal">clear</button>
+              </div>
+
+             <div>
+                <p><<根>></p>
+                <p> ２　分　法  ：___________</p>
+                <span style="margin-right:1em;"></span>↑
+                <div class="box">差:</div>
+                <span style="margin-right:1em;"></span>↓
+                <p>ニュートン法：___________</p>
+             </div> 
+             <div>
+                <p><<計算回数>></p>
+                <p> ２　分　法 ：___________</p>
+                <span style="margin-right:1em;"></span>↑
+                <div class="box">差:</div>
+                <span style="margin-right:1em;"></span>↓
+                <p>ニュートン法：___________</p>
+             </div>
+            <p id="theory"></p>
+            <p id="answer"></p>
+          </div>
+          <div id="main">
+            <div id="area1" class="area">
+              <p>　２分法・ニュートン法</p>
+              <canvas class="myCanvas" id="graph1" width="460" height="460"></canvas>
+              <canvas class="myCanvas" id="graph1b" width="460" height="460"></canvas>
+            </div>
+    
+          </div>
+        </div>
+      </body>
+    </html>

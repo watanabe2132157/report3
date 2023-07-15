@@ -1,0 +1,74 @@
+body {
+    background-color: #fffffc;
+}
+
+#panel {
+    float: left;
+    margin-right: auto;
+    width: 180px;
+}
+
+#main {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myCanvas {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+}
+
+.area {
+    margin-top: 10px;
+    left: 60px;
+    float: left;
+    position: relative;
+}
+
+#area1 {
+    background-color: #ffffd0;
+    width: 660px;
+    height: 460px;
+}
+
+#header {
+    width: 640px;
+}
+
+.normal {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.clear {
+    font-size: 14px;
+    width: 140px;
+    height: 30px;
+}
+
+#initial {
+    background-color: #b0f0b0;
+}
+
+p{
+    white-space: nowrap;
+}
+
+.start{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #d95a5a;
+}
+
+.box{
+    width:5em;
+    height:2em;
+    font-size:15px;
+    border:solid 1px;
+}
